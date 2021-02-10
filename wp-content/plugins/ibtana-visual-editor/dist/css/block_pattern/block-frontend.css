@@ -1,0 +1,99 @@
+.slider-pattern,.article-outer-box{
+  width: auto;
+  height: auto;
+}
+.slider-pattern .wp-block-column.is-vertically-aligned-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(10%);
+  left: 7%;
+  border-left: solid 5px;
+  border-image: linear-gradient(to bottom, #ea430f, #f9ce44) 1 100%;
+  padding-left: 15px;
+}
+.slider-pattern h2{
+  font-size: 50px !important;
+  font-weight: 500;
+  color: #000 !important;
+}
+.slider-pattern h5{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 15px;
+  background: -webkit-linear-gradient(#f9ce44, #ea430f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.slider-pattern p,.article-section h4,.article-section p,.article-outer-box h3,.article-outer-box h5{
+  color: #000 !important;
+}
+.slider-pattern p{
+  font-size: 14px !important;
+}
+.slider-pattern .alignleft{
+  border:none;
+}
+.slider-pattern a {
+  font-size: 12px !important;
+  text-decoration: none !important;
+  padding: 15px 20px !important;
+  border-radius: 30px !important;
+  border: unset !important;
+}
+
+/*Article*/
+.article-container h4{
+  font-size: 18px !important;
+}
+.article-outer-box {
+  padding: 3em 0;
+}
+.article-section {
+  min-height: auto !important;
+  height: auto;
+  width: auto;
+  margin: 0 20px;
+  margin-top: -75px !important;
+}
+.article-container {
+  margin: 0 auto !important;
+  max-width: 1120px !important;
+}
+.article-container p{
+  font-size: 14px !important;
+}
+.article-outer-box h5{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 15px !important;
+  background: -webkit-linear-gradient(#30a7eb, #0d25a9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.article-container .wp-block-cover .wp-block-cover__inner-container{
+  width: auto !important;
+}
+.article-container .wp-block-cover{
+  padding: unset !important;
+}
+@media screen and (max-width:720px) {
+  .slider-pattern .wp-block-column.is-vertically-aligned-center {
+    position: static;
+    transform: none;
+    border-left: none;
+    text-align: center;
+  }
+  .slider-pattern .alignleft {
+    text-align: center;
+    float: none;
+  }
+}
+@media screen and (max-width:1000px) {
+  .slider-pattern h2{
+    font-size: 30px;
+  }
+  .article-container{
+    margin: 0 15px !important;
+  }
+  .article-section {
+    margin-bottom: 20px;
+  }
+}

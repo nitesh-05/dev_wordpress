@@ -1,0 +1,618 @@
+.ive_alignright{
+    text-align: right;
+}
+.il-tab {
+  overflow: hidden;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+/* Style the buttons inside the il-tab */
+.il-tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.il-tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.il-tab button.active {
+  background: linear-gradient(#6ccef5,#016194);
+  color: #fff;
+  font-weight: 600;
+}
+
+.il-tabcontent:first-child {
+  display: block;
+}
+
+/* Style the il-tab content */
+.il-tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* Premium Products */
+.o-product-row,.o-product-main-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.o-product-row .o-products-col{
+  width: 29%;
+  flex: 0 0 29%;
+  box-sizing: border-box;
+  box-shadow: 0 0 12px #e1e1e1;
+  margin: 0 15px 30px 15px;
+  background-color: #fff;
+  text-align: center;
+  padding-bottom: 16px;
+  position: relative;
+}
+.o-product-row .o-products-col .o-products-image{
+  max-width: 100%;
+  height: 273px;
+  overflow-y: scroll;
+}
+.o-product-row .o-products-col h3{
+  font-size: 15px;
+    font-weight: 600;
+    color: #362f31;
+    margin-top: 13px;
+    text-align: center;
+    padding: 0 10px;
+}
+.o-product-row .o-products-col a{
+  font-size: 13px;
+    color: #fff;
+    padding: 6px 12px;
+    background-image: linear-gradient(315deg, rgb(0, 123, 255) 10%, rgb(31, 48, 66) 74%);
+    font-weight: 600;
+    letter-spacing: 0px;
+    display: inline-block;
+    margin-top: 5px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.wizard-plugin-count{
+  display: none;
+}
+.o-product-col-1{
+  width: 26%;
+  flex: 0 0 26%;
+  box-sizing: border-box;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.o-product-col-2{
+  width: 70%;
+  flex: 0 0 70%;
+  box-sizing: border-box;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 16px;
+  padding-top: 47px;
+}
+.o-product-col-1 ul{
+  padding: 20px;
+}
+.o-product-col-1 ul li{
+  background: #e2e2e2;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.o-product-col-1 ul li span{
+  width: 20px;
+    height: 14px;
+    text-align: center;
+    padding: 2px 0 3px 0 !important;
+    display: inline-block;
+    font-size: 12px;
+    position: relative;
+    top: 1px !important;
+    float: right;
+    color: #fff;
+    background-color: #17a2b8;
+    box-sizing: content-box;
+}
+.o-products-image img{
+  width: 100%;
+}
+.o-product-col-1 ul li.active{
+  color: #fff;
+    background-image: linear-gradient(315deg, rgb(0, 123, 255) 10%, rgb(31, 48, 66) 74%);
+}
+#reload--modal--contents{
+  background: transparent;
+  margin: 19px -15px;
+  border: none;
+  outline: none;
+  width: 39px;
+}
+#reload--modal--contents--admin{
+  cursor: pointer;
+}
+.ibtana--modal--loader--admin svg{
+  width: 32px;
+	margin: auto;
+	background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;
+	display: block;
+	shape-rendering: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	bottom: 0;
+	left: 0;
+}
+.search-text{
+  float: right;
+  margin: 15px 16px;
+  border: none !important;
+}
+.search-text::placeholder{
+  font-size: 14px;
+  color: #ababa3;
+}
+#myUpcomingModal .modal-content-reload-svg:after{
+  content: "\f179";
+  font-family: 'dashicons';
+  font-size: 22px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ababa3;
+}
+/* --------- Teamplte Page ------ */
+
+.il-title-search{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.il-title-search .search-text{
+  float: none;
+  margin-bottom: 25px;
+}
+.il-title-search h3{
+  width: 40%;
+  flex: 0 0 40%;
+  margin-bottom: 0;
+  font-size: 22px;
+  font-weight: 600;
+} 
+.il-title-search .ive_alignright{
+  width: 60%;
+  flex: 0 0 60%;
+} 
+.il-title-search hr{
+  width: 100%;
+  margin: 0 !important; 
+}
+.ibtana-template-page span.dashicons-update-alt{
+  font-size: 27px;
+  color: #ababa3;
+  position: relative;
+  top: 16px;
+}
+.ibtana-template-page .il-title-search .ive_alignright{
+  position: relative;
+}
+.ibtana-template-page .il-title-search .ive_alignright::after{
+  content: "\f179";
+  font-family: 'dashicons';
+  font-size: 22px;
+  position: absolute;
+  right: 20px;
+  top: 42%;
+  transform: translateY(-42%);
+  color: #ababa3;
+}
+/* -------- Plugin Activation Page -------- */
+body.toplevel_page_ibtana-visual-editor{
+  background-color: #f2f2f2 !important;
+}
+.toplevel_page_ibtana-visual-editor #wpcontent{
+  padding-left: 0
+}
+.ive-theme-page-header {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+.ive-container {
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    max-width: 930px;
+}
+.ive-flex{
+  -js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+.ive-theme-title {
+    align-content: flex-start;
+    text-align: left;
+}
+.ive-theme-icon{
+  width: 125px;
+    vertical-align: bottom;
+}
+.ive-top-links {
+    flex: auto;
+    text-align: right;
+}
+.ive-top-links ul{
+    margin: 0;
+}
+.ive-top-links ul li {
+    display: inline-block;
+    margin: 0;
+    font-size: 13px;
+}
+.ivera-lightning-icon{
+    width: 11px;
+    vertical-align: bottom;
+}
+.ive-theme-title .ivera-theme-version {
+    background-color: #e5e5e5;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 10px;
+    padding: 2px 7px;
+    color: #222;
+}
+.ive-free-plugin-wrap{
+  border: 1px solid #ccd0d4;
+  max-width: 681px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.ive-free-plugin-wrap li a.button,.ive-free-plugin-wrap li .action-link{
+  font-size: 13px;
+  float: right;
+  position: relative;
+  top: -6px;
+}
+.ive-free-plugin-wrap li .action-link span{
+  position: relative;
+  top: 5px;
+}
+.ive-free-plugin-wrap li .action-link.disabled{
+  color: #222 !important;
+}
+.ive-free-plugin-wrap .ive-plugin-activate{
+  color: #fff;
+}
+.ive-free-plugin-wrap .ive-plugin-install{
+  color: #007cba;
+}
+.ive-free-plugin-wrap ul{
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ive-free-plugin-wrap ul li{
+  flex: 0 0 46%;
+  width: 46%;
+  background: #e2e2e2;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 5px #e3e3e3;
+  box-sizing: border-box;
+  margin: 0 0 17px 17px;
+}
+.ive-free-plugin-wrap a:hover{
+  text-decoration: none;
+}
+.ive-admin-main-tab-content2 h2{
+  font-size: 23px;
+  font-weight: 400; 
+  margin: 10px 0 30px 0;  
+}
+.ive-free-plugin-wrap .ive-container{
+  padding: 0;
+}
+.ive-free-plugin-wrap .ive-plugin-title{
+  font-size: 18px;
+  font-weight: 600;
+}
+.ive-free-plugin-wrap .ive-plugin-btn{
+  padding: 9px 18px;
+}
+.ive-plugin-btn{
+  font-size: 13px;
+  color: #fff;
+  padding: 6px 12px;
+  background-image: linear-gradient(#6ccef5,#016194);
+  font-weight: 600;
+  letter-spacing: 0px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.ive-admin-main-tab-content2 .wrap{
+  border: 1px solid #ccd0d4;
+  max-width: 681px;
+  margin: 20px auto !important;
+  background-color: #fff;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.ive-admin-main-tab-content2 .wrap table tr{
+  display: flex;
+  align-items: center;
+}
+.ive-admin-main-tab-content2 .verify-key-wrap th{
+  padding-top: 10px;
+}
+.ive-admin-main-tab-content2 .verify-key-wrap p.submit{
+  padding-bottom: 15px;
+}
+/* -------- Plugin Activation Page End -------- */
+/* ---------- Admin Page Tabs Starts ------- */
+#ive-admin-main-tab-wrap ul{
+  max-width: 681px;
+  margin: 0 auto;
+  background: #fff;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#ive-admin-main-tab-wrap li.ive-admin-main-tab{
+  width: 50%;
+  flex: 0 0 50%;
+  margin-bottom: 0;
+  padding: 10px 19px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+}
+#ive-admin-main-tab-wrap li.ive-admin-main-tab.active{
+  border-bottom: 2px solid #222;
+}
+/* ---------- Admin Page Tabs End ------- */
+.ibtana-settings_page_ibtana-visual-editor-templates #wpcontent{
+  padding-left: 0;
+}
+/* --------- Get Started Page ---------- */
+.ivera-theme-version{
+  display: inline-block;
+  background: #e2e2e2;
+  padding: 2px 10px;
+  border-radius: 3px;
+}
+#ive-get-started-page img{
+  max-width: 100%;
+}
+#ive-get-started-page p{
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 1em 0;
+    color: #444;
+    text-align: justify;
+}
+#ive-get-started-page a{
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 1em 0;
+  text-decoration: none;
+}
+#ive-get-started-page .ive-get-started-btn{
+  font-size: 13px;
+  color: #0071a1;
+  border:1px solid  #0071a1;
+  background: #f3f5f6;
+  vertical-align: top;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 3px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.ive-get-started-head{
+  background-color: #fff;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+.ive-get-started-container{
+  max-width: 900px;
+  margin: auto;
+}
+.ive-get-started-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.ive-get-started-col-6{
+  width: 50%;
+  flex: 0 0 50%;
+  box-sizing: border-box;
+}
+.ive-get-started-head .ive-get-started-row{
+  align-items: center;
+}
+.ive-get-started-head-text{
+  text-align: right;
+  font-weight: 600;
+}
+.ive-get-started-head-text a{
+  text-decoration: none;
+}
+.ive-get-started-col-7{
+  width: 66%;
+  flex: 0 0 66%;
+  box-sizing:border-box;
+}
+.ive-get-started-col-5{
+  width: 31%;
+  flex: 0 0 31%;
+  box-sizing:border-box;
+}
+#ive-get-started-page h3 .dashicons{
+  padding-right: 15px;
+  position: relative;
+  top: -5px;
+}
+#ive-get-started-page .dashicons{
+  font-size: 25px;
+}
+#ive-get-started-page .ive-get-started-about,#ive-get-started-page .ive-get-started-about-blocks,#ive-get-started-page .ive-get-started-blocks-settings{
+  background-color: #fff;
+  padding: 15px 21px;
+  border: 1px solid #ccd0d4;
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+#ive-get-started-page .ive-get-started-about-blocks,#ive-get-started-page .ive-get-started-blocks-settings,.ive-get-started-sidebar-css-gen,.ive-get-started-sidebar-knowledge,.ive-get-started-sidebar-support,.ive-get-started-addons-settings{
+  margin-top: 20px;
+}
+.ive-get-started-row.ive-get-started-block-buttons .ive-get-started-col-7{
+  text-align: right;
+}
+.ive-get-started-row.ive-get-started-block-buttons .ive-get-started-col-5{
+  text-align: left;
+}
+.ive-get-started-row.ive-get-started-block-buttons a:last-child{
+  background-color: #007cba !important;
+  color: #fff !important;
+}
+.ive-get-started-row.ive-get-started-block-buttons a:last-child span{
+  font-size: 19px !important;
+}
+.ive-get-started-row.ive-get-started-block-buttons{
+  background: #fff;
+  padding: 0 14px;
+  border-bottom: 2px solid #e6e6e6;
+}
+#ive-get-started-page .ive-get-started-blocks-settings{
+  padding: 0;
+}
+.ive-get-started-block-activation .ive-get-started-block-title,.ive-get-started-addon-activation .ive-get-started-addon-title{
+  text-align: left;
+  color: #0073aa;
+  border-left: 3px solid #008ec2;
+  padding: 0 14px;
+}
+.ive-get-started-block-activation .ive-get-started-block-button,.ive-get-started-addon-activation .ive-get-started-addon-button{
+  text-align: right;
+  padding-right: 15px;
+}
+.ive-get-started-block-activation .ive-get-started-row,.ive-get-started-addon-activation .ive-get-started-row{
+  -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1) inset;
+  margin-bottom: 0;
+  line-height: 2;
+}
+.ive-get-started-addons-settings .ive-get-started-col-5{
+  width: 34% !important;
+  flex: 0 0 34% !important;
+}
+.ive-get-started-blocks-settings .ive-get-started-col-5{
+  width: 20% !important;
+  flex: 0 0 20% !important;
+}
+.ive-get-started-blocks-settings .ive-get-started-col-7{
+  width: 100% !important;
+  flex: 0 0 100% !important;
+}
+.ive-get-started-blocks-settings .ive-get-started-row.ive-get-started-block-buttons .ive-get-started-col-7{
+  width: 80% !important;
+  flex: 0 0 80% !important;
+}
+.ive-get-started-blocks-settings .ive-get-started-row{
+  align-items: center;
+}
+.ive-get-started-sidebar{
+  margin-left: 20px;
+}
+.ive-get-started-blocks-settings p{
+  margin-bottom: 15px !important;
+  margin-top: 5px !important;
+}
+.ive-get-started-sidebar-theme,.ive-get-started-sidebar-css-gen,.ive-get-started-sidebar-knowledge,.ive-get-started-sidebar-support,.ive-get-started-addons-settings{
+  border: 1px solid #ccd0d4;
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  background: #fff;
+  padding-bottom: 15px;
+}
+.ive-get-started-main-container p{
+  padding: 0px 15px;
+}
+.ive-get-started-main-container a, .ive-get-started-main-container button{
+  margin: 0 15px !important;
+  cursor: pointer;
+}
+.ive-get-started-main-container h4{
+  padding: 10px 15px;
+  font-size: 14px;
+  margin: 0;
+  border-bottom: 2px solid #e6e6e6;
+}
+.ive-get-started-main-container h4 span{
+  font-size: 20px !important;
+  padding-right: 8px;
+}
+.ive-get-started-sidebar-theme a.ive-get-started-btn{
+  background-color: #0071a1 !important;
+  display: inline-block !important;
+  color: #fff !important;
+}
+.ive-get-started-sidebar-theme img{
+  width: 100%;
+}
+.ive-get-started-sidebar-theme{
+  margin-bottom: 20px;
+}
+.ive-get-started-sidebar-css-gen p a{
+  margin: 0 !important;
+}
+.ive-get-started-addon-activation .ive-get-started-col-6{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.ive-get-started-addons-settings{
+  padding-bottom: 0!important;
+}
+.ive-get-started-addon-button a .spinner{
+  display: none;
+  visibility: visible;
+  margin-top: 0 !important;
+}
+/* --------- End Get Started Page ------- */

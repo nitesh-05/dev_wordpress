@@ -1,0 +1,430 @@
+a:hover {
+  text-decoration: none;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+.ibtana-row {
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.ibtana-column-four {
+  width: 25%;
+  flex: 0 0 25%;
+  box-sizing: border-box;
+  padding: 0 15px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.ibtana-column-three {
+  width: 33.33%;
+  flex: 0 0 33.33%;
+  box-sizing: border-box;
+  padding: 0 15px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.ibtana-modal-head {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 15px 0 2px 0;
+}
+
+.ibtana-modal-head .ibtana-modal-logo {
+  max-width: 30%;
+  flex: 0 0 30%;
+  box-sizing: border-box;
+  padding-bottom: 12px;
+}
+
+.ibtana-modal-head .ibtana-modal-logo img {
+  max-width: 68px;
+}
+
+.ibtana-modal-head .ibtana-modal-logo h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: #1f3042;
+}
+
+.ibtana-modal-head .tab-parent-head {
+  max-width: 70%;
+  flex: 0 0 70%;
+  box-sizing: border-box;
+}
+
+.ibtana-modal-head .tab-parent-head ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ibtana-modal-head .tab-parent-head ul li {
+  display: inline-block;
+  color: #5a5a5a;
+  font-size: 14px;
+  font-weight: 500;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  padding: 0 20px;
+  margin-bottom: 0;
+}
+
+.ibtana-modal-head .tab-parent-head ul li button {
+  background-color: transparent;
+  border: none;
+  color: #5a5a5a;
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.ibtana-modal-head .tab-parent-head ul li button.active {
+  border-bottom: 2px solid #44a745 !important;
+}
+
+.ibtana-modal-head .tab-parent-head ul li button span {
+  font-size: 16px;
+  padding-right: 5px;
+  position: relative;
+  top: 2px;
+}
+
+.themes-box-wrap .blog-content-inner {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.themes-box-wrap .blog-content-inner h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #362f31;
+  margin-top: 13px;
+}
+
+.UpcomingModal-content .CloseUpcomingModal {
+  position: relative;
+  right: 16px;
+  top: 5px;
+}
+
+.blog-content-btn-inner {
+  font-size: 13px;
+  color: #fff !important;
+  padding: 6px 12px;
+  background-image: linear-gradient(315deg, rgb(0, 123, 255) 10%, rgb(31, 48, 66) 74%);
+  font-weight: 600;
+  letter-spacing: 0px;
+  display: inline-block;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+
+.blog-content-btn-inner:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.inner-tab-content {
+  clear: both;
+  margin-bottom: 20px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  background-color: #fff;
+}
+
+.inner-tab-content ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.inner-tab-content ul li {
+  display: inline-block;
+  padding: 0 20px;
+  margin: 0;
+  color: #5a5a5a;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.inner-tab-content ul li span {
+  padding-bottom: 17px;
+}
+
+.inner-tab-content .theme-tab-list.active span {
+  border-bottom: 2px solid #44a745 !important;
+}
+
+.inner-tab-content .theme-tab-list-two.active span {
+  border-bottom: 2px solid #44a745 !important;
+}
+
+.blog-content-img-inner {
+  overflow-y: scroll;
+  height: 230px;
+  margin-bottom: 10px;
+}
+
+.blog-content-inner-image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.blog-content-img-inner::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+.blog-content-img-inner::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+.blog-content-img-inner::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: rgb(0, 123, 255);
+}
+
+/* -------- Subcategories ----------- */
+.sub-category-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 15px;
+}
+
+.sub-category-wrapper .ibtana-column-one {
+  width: 21%;
+  flex: 0 0 21%;
+  box-sizing: border-box;
+  padding: 15px 15px 0 15px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.sub-category-wrapper .ibtana-column-two {
+  width: 79%;
+  flex: 0 0 79%;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+
+.sub-category-wrapper .ibtana-column-one button {
+  display: block;
+  border: none;
+  margin-bottom: 13px;
+  padding: 8px 24px;
+  width: 100%;
+  text-align: left;
+}
+
+.sub-category-wrapper .sub-cat-button.active {
+  font-size: 13px;
+  color: #fff;
+  background-image: linear-gradient(315deg, rgb(0, 123, 255) 10%, rgb(31, 48, 66) 74%);
+  font-weight: 600;
+  letter-spacing: 0px;
+  text-align: left;
+  display: inline-block;
+}
+
+.sub-category-wrapper .sub-cat-button span {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 4px 0;
+  display: inline-block;
+  font-size: 12px;
+  position: relative;
+  top: -1px;
+  float: right;
+}
+
+.template-buy-banner {
+  padding: 20px 33px;
+  background-image: linear-gradient(315deg, rgb(0, 123, 255) 10%, rgb(31, 48, 66) 74%);
+}
+
+.template-buy-banner span {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.template-buy-banner a {
+  background: #fff;
+  color: #1f3042;
+  padding: 9px 20px;
+  border-radius: 30px;
+  margin-top: -8px;
+  font-weight: 600;
+  font-size: 13px;
+  margin-left: 22px;
+}
+
+.template-buy-banner a:hover {
+  text-decoration: none;
+  color: #1f3042;
+}
+
+#reload--modal--contents {
+  background: transparent;
+  margin: 24px -15px;
+  border: none;
+  outline: none;
+  width: 39px;
+}
+
+.ibtana--modal--loader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  z-index: 999;
+}
+
+.content-modal-show {
+  background: white;
+  opacity: .5;
+}
+
+.ibtana--modal--loader svg {
+  width: 32px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;
+  display: block;
+  shape-rendering: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+}
+
+#ibtana-modal-btn {
+  background-image: linear-gradient(315deg, rgb(0, 123, 255) 10%, rgb(31, 48, 66) 74%);
+  border: medium none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+}
+
+.UpcomingModal-content {
+  background-color: rgb(254, 254, 254);
+  margin: auto;
+  border: 1px solid rgb(136, 136, 136);
+  width: 80%;
+  overflow-y: auto;
+  height: 80vh;
+}
+
+.CloseUpcomingModal {
+  color: rgb(170, 170, 170);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tab-parent-head {
+  overflow: hidden;
+}
+
+.search-text {
+  float: right;
+  margin: 17px 16px;
+}
+
+#InnerPages {
+  display: none;
+}
+
+#Templates {
+  display: unset;
+}
+
+#free-template {
+  display: none;
+}
+
+.modal_btn_svg_icon {
+  cursor: pointer;
+  display: inline-flex;
+}
+
+.blog-content-inner {
+  text-align: center;
+}
+
+.blog-content-img-inner.free-content-inner {
+  height: 190px;
+  overflow-y: hidden;
+}
+
+.modal-content-reload-svg {
+  float: right;
+  position: relative;
+}
+
+.modal-content-reload-svg .dashicons {
+  font-size: 27px;
+  color: #000;
+  position: relative;
+  top: -1px;
+}
+
+.ibtana-column-four.card-theme-active {
+  border: 2px solid #44a745 !important
+}
+
+.modal-btn-svg-text-span {
+  display: block;
+  margin: auto 5px;
+  font-weight: 800;
+  font-size: 14.5px;
+  text-align: left;
+}
+
+.ibtana-row.ibtana-innerpage-hide {
+  display: none;
+}
+
+#myUpcomingModal {
+  display: none;
+  position: fixed;
+  z-index: 999999;
+  padding-top: 100px;
+  left: 0;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.ive-coming-soon {
+  width: 100%;
+  text-align: center;
+}
+
+.theme-tab-list-two span {
+  text-transform: capitalize;
+}
